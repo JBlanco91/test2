@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91C9AA2744851FABEF3C3CBF /* libPods-test2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50493D258B3202672BB770BB /* libPods-test2.a */; };
 		BBB95D4A1B7E3EF2004E192E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB95D491B7E3EF2004E192E /* main.m */; };
 		BBB95D4D1B7E3EF2004E192E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB95D4C1B7E3EF2004E192E /* AppDelegate.m */; };
 		BBB95D501B7E3EF2004E192E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB95D4F1B7E3EF2004E192E /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		BBB95D551B7E3EF2004E192E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB95D541B7E3EF2004E192E /* Images.xcassets */; };
 		BBB95D581B7E3EF2004E192E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB95D561B7E3EF2004E192E /* LaunchScreen.xib */; };
 		BBB95D641B7E3EF2004E192E /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB95D631B7E3EF2004E192E /* test2Tests.m */; };
+		BBB95D721B7E7584004E192E /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB95D711B7E7584004E192E /* TableCell.m */; };
+		BBB95D751B7E76AE004E192E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB95D741B7E76AE004E192E /* TableViewController.m */; };
+		BBB95D781B7E9214004E192E /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB95D771B7E9214004E192E /* Photo.m */; };
+		BBB95D7C1B823922004E192E /* UploadPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB95D7B1B823922004E192E /* UploadPhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50493D258B3202672BB770BB /* libPods-test2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB95D441B7E3EF2004E192E /* test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB95D481B7E3EF2004E192E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB95D491B7E3EF2004E192E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,16 @@
 		BBB95D5D1B7E3EF2004E192E /* test2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB95D621B7E3EF2004E192E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB95D631B7E3EF2004E192E /* test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2Tests.m; sourceTree = "<group>"; };
+		BBB95D701B7E7584004E192E /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		BBB95D711B7E7584004E192E /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		BBB95D731B7E76AE004E192E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BBB95D741B7E76AE004E192E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BBB95D761B7E9214004E192E /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		BBB95D771B7E9214004E192E /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		BBB95D7A1B823922004E192E /* UploadPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadPhotoViewController.h; sourceTree = "<group>"; };
+		BBB95D7B1B823922004E192E /* UploadPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadPhotoViewController.m; sourceTree = "<group>"; };
+		DAB661D038478C2C98CA0695 /* Pods-test2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test2/Pods-test2.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD3291B16F852C28F0B537C /* Pods-test2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test2.release.xcconfig"; path = "Pods/Target Support Files/Pods-test2/Pods-test2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C9AA2744851FABEF3C3CBF /* libPods-test2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,8 @@
 				BBB95D461B7E3EF2004E192E /* test2 */,
 				BBB95D601B7E3EF2004E192E /* test2Tests */,
 				BBB95D451B7E3EF2004E192E /* Products */,
+				EAD75F00F16AB0E8B9FC109A /* Pods */,
+				C3812766821A966199D9BD66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,8 +100,14 @@
 		BBB95D461B7E3EF2004E192E /* test2 */ = {
 			isa = PBXGroup;
 			children = (
-				BBB95D4B1B7E3EF2004E192E /* AppDelegate.h */,
-				BBB95D4C1B7E3EF2004E192E /* AppDelegate.m */,
+				BBB95D7A1B823922004E192E /* UploadPhotoViewController.h */,
+				BBB95D7B1B823922004E192E /* UploadPhotoViewController.m */,
+				BBB95D761B7E9214004E192E /* Photo.h */,
+				BBB95D771B7E9214004E192E /* Photo.m */,
+				BBB95D731B7E76AE004E192E /* TableViewController.h */,
+				BBB95D741B7E76AE004E192E /* TableViewController.m */,
+				BBB95D701B7E7584004E192E /* TableCell.h */,
+				BBB95D711B7E7584004E192E /* TableCell.m */,
 				BBB95D4E1B7E3EF2004E192E /* ViewController.h */,
 				BBB95D4F1B7E3EF2004E192E /* ViewController.m */,
 				BBB95D511B7E3EF2004E192E /* Main.storyboard */,
@@ -96,6 +121,8 @@
 		BBB95D471B7E3EF2004E192E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BBB95D4B1B7E3EF2004E192E /* AppDelegate.h */,
+				BBB95D4C1B7E3EF2004E192E /* AppDelegate.m */,
 				BBB95D481B7E3EF2004E192E /* Info.plist */,
 				BBB95D491B7E3EF2004E192E /* main.m */,
 			);
@@ -119,6 +146,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3812766821A966199D9BD66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50493D258B3202672BB770BB /* libPods-test2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD75F00F16AB0E8B9FC109A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB661D038478C2C98CA0695 /* Pods-test2.debug.xcconfig */,
+				DAD3291B16F852C28F0B537C /* Pods-test2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBB95D671B7E3EF2004E192E /* Build configuration list for PBXNativeTarget "test2" */;
 			buildPhases = (
+				4A41448F64666973A41E93EE /* Check Pods Manifest.lock */,
 				BBB95D401B7E3EF2004E192E /* Sources */,
 				BBB95D411B7E3EF2004E192E /* Frameworks */,
 				BBB95D421B7E3EF2004E192E /* Resources */,
+				B394B3469130CEC604760388 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +260,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A41448F64666973A41E93EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B394B3469130CEC604760388 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test2/Pods-test2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBB95D401B7E3EF2004E192E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB95D7C1B823922004E192E /* UploadPhotoViewController.m in Sources */,
+				BBB95D781B7E9214004E192E /* Photo.m in Sources */,
 				BBB95D501B7E3EF2004E192E /* ViewController.m in Sources */,
 				BBB95D4D1B7E3EF2004E192E /* AppDelegate.m in Sources */,
+				BBB95D721B7E7584004E192E /* TableCell.m in Sources */,
+				BBB95D751B7E76AE004E192E /* TableViewController.m in Sources */,
 				BBB95D4A1B7E3EF2004E192E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,9 +428,11 @@
 		};
 		BBB95D681B7E3EF2004E192E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB661D038478C2C98CA0695 /* Pods-test2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +440,11 @@
 		};
 		BBB95D691B7E3EF2004E192E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD3291B16F852C28F0B537C /* Pods-test2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +503,7 @@
 				BBB95D691B7E3EF2004E192E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBB95D6A1B7E3EF2004E192E /* Build configuration list for PBXNativeTarget "test2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +512,7 @@
 				BBB95D6C1B7E3EF2004E192E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

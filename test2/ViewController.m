@@ -14,14 +14,19 @@
 
 @implementation ViewController
 
+@synthesize buttonGallery;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    [[self.buttonGallery layer] setCornerRadius:8.0f];
+    [[self.buttonGallery layer] setMasksToBounds:YES];
+    [[self.buttonGallery layer] setBorderWidth:1.0f];
+    
+    [[self.buttonUpload layer] setCornerRadius:8.0f];
+    [[self.buttonUpload layer] setMasksToBounds:YES];
+    [[self.buttonUpload layer] setBorderWidth:1.0f];
+    
 }
 
 @end

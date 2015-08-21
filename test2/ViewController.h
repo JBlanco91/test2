@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AFNetworking.h>
+#import "TableCell.h"
+#import "Photo.h"
+
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *buttonGallery;
+@property (weak, nonatomic) IBOutlet UIButton *buttonUpload;
 
 @end
 
